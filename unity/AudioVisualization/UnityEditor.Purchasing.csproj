@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2a1875ea-ad7f-77f0-58db-f33c42be46c2}</ProjectGuid>
+    <ProjectGuid>{ebef33b0-ecac-2f3d-e24a-ef283d915158}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -405,7 +405,7 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\git\studies\semester_4\meco\AudioVisualizationTemplateEmpty\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\git\studies\semester_4\meco\unity\AudioVisualization\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -785,47 +785,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{9f17d1fb-5291-59ef-f653-b6e0307de1a6}</Project>
+      <Project>{e9b5b71f-4cb0-00aa-1ed6-84719ba7ee5a}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{b1581192-80df-7f62-9d0b-b7acef62a1a5}</Project>
+      <Project>{a5386c9f-7f54-f3a6-f50d-da2736662e88}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{68d48d7f-b0e2-e97d-ea4b-c8e7ac266da5}</Project>
+      <Project>{6f8b1c6a-1302-7d34-ae56-0028bb4e80ac}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{82358261-43e1-704b-660d-8f9089b0c4c3}</Project>
+      <Project>{7c73a350-995b-74bc-45b5-98e5553f1dc7}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{a5e3c285-8198-9554-a33b-f27344fcd65a}</Project>
+      <Project>{50f94536-217c-47c4-0306-d275de6421c1}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{06bfe486-2956-d703-6faa-ab9789964d76}</Project>
+      <Project>{74c9bedb-75bd-bc8a-e3f2-6c29d614ed3d}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{7447dd56-d437-9eed-e67d-2fb5d7065dff}</Project>
+      <Project>{4f25bb99-4841-87af-7563-4f1a96af3914}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{d07499a1-e046-ed97-0b47-1659b2d011fa}</Project>
+      <Project>{8ead65a9-c815-057f-e231-628d98d7d1f4}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{bb150bf9-1743-5d6a-c185-78a1f58917a0}</Project>
+      <Project>{b4721533-238d-f09b-2dae-0d9349c921d4}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{eb85ffd6-aeee-1c49-61a2-baa738d1db75}</Project>
+      <Project>{5aacc35a-d0c6-6c73-ecba-880da79d4e14}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{a9de2574-8fd8-81f2-b111-6aee905e8413}</Project>
+      <Project>{3fd0fbee-325b-f818-e023-9b8d54ea4cd6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
