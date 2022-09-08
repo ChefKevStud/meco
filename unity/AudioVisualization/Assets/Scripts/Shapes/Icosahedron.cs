@@ -98,25 +98,24 @@ public class Icosahedron : MonoBehaviour
 
     private void createTriangle(int i, Mesh topMesh, Vector3 x, Vector3 y, Vector3 z)
     {
-        GameObject meshObj = new GameObject($"triangle_{i}");
-        meshObj.transform.parent = transform;
-
-        MeshFilter meshFilter = new MeshFilter();
-
-        meshObj.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        GameObject triangle = new GameObject($"triangle_{i}");
         
-        meshFilter = meshObj.AddComponent<MeshFilter>();
-        meshFilter.sharedMesh = new Mesh();
+        triangle.transform.parent = transform;
+        triangle.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        triangle.AddComponent<MeshFilter>();
         
-        Vector3[] VerteicesArray = {x, y, z};
+        Mesh mesh = triangle.GetComponent<MeshFilter>().mesh;
+
+        Vector3[] verticesArray = {x, y, z};
         int[] trianglesArray = new int[3];
         
         trianglesArray[0] = 0;
         trianglesArray[1] = 1;
         trianglesArray[2] = 2;
         
-        meshFilter.sharedMesh.vertices = VerteicesArray;
-        meshFilter.sharedMesh.triangles = trianglesArray;
+        mesh.vertices = verticesArray;
+        mesh.triangles = trianglesArray;
+        mesh.RecalculateNormals();
         
     }
     
