@@ -14,6 +14,9 @@ public class AudioManager3: MonoBehaviour
 
     private Vector3[] lastPosArr;
 
+    public float amplification = 40;
+    public float yPositionOffset = 2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,9 @@ public class AudioManager3: MonoBehaviour
 
         sphere = new GameObject();
         sphere.AddComponent<Icosahedron>();
+
+        Vector3 startPosition = sphere.transform.position;
+        sphere.transform.position = new Vector3(startPosition.x, yPositionOffset + sphere.transform.lossyScale.y, startPosition.z);
 
         lastPosArr = new Vector3[sphere.transform.childCount];
 
@@ -71,6 +77,11 @@ public class AudioManager3: MonoBehaviour
         
         
         Vector3[] newPosArr = new Vector3[6];
+        
+        if (lastPosArr.Length < 1)
+        {
+            lastPosArr = new Vector3[sphere.transform.childCount];
+        }
 
         for (int i = 0; i < sphere.transform.childCount - 1; i++)
         {
@@ -88,7 +99,7 @@ public class AudioManager3: MonoBehaviour
             Vector3 ac = verticies[2] - verticies[0];
             
             // moveVector replaced with newPos
-            newPos = Vector3.Cross( ab, ac) * (samples[i] * 30);
+            newPos = Vector3.Cross( ab, ac) * (samples[i] * amplification);
             
             var initialPos = new Vector3(0, 0, 0);
             //moveAwayY = samples[i] * 10;
