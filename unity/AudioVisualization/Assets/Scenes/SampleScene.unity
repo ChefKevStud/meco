@@ -2177,6 +2177,7 @@ MonoBehaviour:
   - 0
   amplification: 40
   yPositionOffset: 1
+  innerSphereMaterial: {fileID: 2100000, guid: a13a484c6d2617d43b2388a44ef9efa4, type: 2}
 --- !u!1 &1244779030
 GameObject:
   m_ObjectHideFlags: 0

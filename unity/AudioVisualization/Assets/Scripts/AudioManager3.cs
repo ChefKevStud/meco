@@ -17,6 +17,8 @@ public class AudioManager3: MonoBehaviour
     public float amplification = 40;
     public float yPositionOffset = 2;
 
+    public Material innerSphereMaterial;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,9 @@ public class AudioManager3: MonoBehaviour
         //instanciate sphere with mesh objects
 
         sphere = new GameObject();
-        sphere.AddComponent<Icosahedron>();
+        sphere.AddComponent<Icosahedron>().innerSphereMaterial = innerSphereMaterial;;
+
+        //sphere.GetComponent<Icosahedron>().innerSphereMaterial = innerSphereMaterial;
 
         Vector3 startPosition = sphere.transform.position;
         sphere.transform.position = new Vector3(startPosition.x, yPositionOffset + sphere.transform.lossyScale.y, startPosition.z);

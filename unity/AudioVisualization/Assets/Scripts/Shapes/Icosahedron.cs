@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using Newtonsoft.Json;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class Icosahedron : MonoBehaviour
 {
@@ -10,37 +13,46 @@ public class Icosahedron : MonoBehaviour
     [Header("Graphics")]
     [SerializeField] private Shader shader;
 
-    private GameObject sphereMesh;
+    private GameObject sphereObj;
+    private Mesh sphereMesh;
+    private GameObject[] triangles;
 
     private IcosahedronGenerator icosahedron;
 
     private int lastSubdivision = int.MinValue;
+    
+    [NotNull]
+    public Material innerSphereMaterial;
 
     public void GenerateMesh()
     {
         this.name = "IcoSphere";
 
-        if (this.sphereMesh)
-            StartCoroutine(Destroy(this.sphereMesh));
+        if (this.sphereObj)
+            Destroy(this.sphereObj);
 
         icosahedron = new IcosahedronGenerator();
         icosahedron.Initialize();
         icosahedron.Subdivide(subdivisions);
 
-        this.sphereMesh = new GameObject("Sphere Mesh");
-        this.sphereMesh.transform.parent = this.transform;
+        this.sphereObj = new GameObject("Sphere Mesh");
+        this.sphereObj.transform.parent = this.transform;
 
         //MeshRenderer surfaceRenderer = this.sphereMesh.AddComponent<MeshRenderer>();
-        this.sphereMesh.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        this.sphereObj.AddComponent<MeshRenderer>().sharedMaterial = innerSphereMaterial;
+        //this.sphereMesh.AddComponent<MeshRenderer>().sharedMaterial = innerSphereMaterial;
         //surfaceRenderer.sharedMaterial = new Material(shader);
-
-        Mesh sphereMesh = new Mesh();
+        
+        if (sphereMesh) sphereMesh.Clear();
+        sphereMesh = new Mesh();
 
         int vertexCount = icosahedron.Polygons.Count * 3;
         int[] indices = new int[vertexCount];
 
         Vector3[] vertices = new Vector3[vertexCount];
         Vector3[] normals = new Vector3[vertexCount];
+
+        triangles = new GameObject[icosahedron.Polygons.Count];
 
         for (int i = 0; i < icosahedron.Polygons.Count; i++)
         {
@@ -64,25 +76,31 @@ public class Icosahedron : MonoBehaviour
         sphereMesh.normals = normals;
         sphereMesh.SetTriangles(indices, 0);
 
-        MeshFilter terrainFilter = this.sphereMesh.AddComponent<MeshFilter>();
+        MeshFilter terrainFilter = this.sphereObj.AddComponent<MeshFilter>();
         terrainFilter.sharedMesh = sphereMesh;
     }
 
-    IEnumerator Destroy(GameObject go)
+    /*IEnumerator Destroy(GameObject go)
     {
         yield return new WaitForEndOfFrame();
         DestroyImmediate(go);
-    }
+    }*/
 
     private void Start()
     {
-        /*lastSubdivision = subdivisions;
+        
+        //innerSphereMaterial = Resources.Load("../Material/InnerSphere.mat", typeof(Material)) as Material;
+        //innerSphereMaterial.shader = Shader.Find("Standard");
+        /*
+        lastSubdivision = subdivisions;
         GenerateMesh();*/
     }
 
     private void OnValidate()
     {
-        if (subdivisions != lastSubdivision)
+        innerSphereMaterial = Resources.Load("InnerSphere") as Material;
+        
+        /**/if (subdivisions != lastSubdivision)
             GenerateMesh();
 
         lastSubdivision = subdivisions;
@@ -90,31 +108,48 @@ public class Icosahedron : MonoBehaviour
 
     private void Update()
     {
-        /*if (subdivisions != lastSubdivision)
+
+        //GenerateMesh();
+        /*Vector3 spherePos = new Vector3();
+
+        if (subdivisions != lastSubdivision && sphereMesh != null)
+        {
             GenerateMesh();
+            //spherePos = sphereMesh.transform.position;
+        }
+        
+        if (subdivisions != lastSubdivision && !transform.parent.position.Equals(spherePos))
+            GenerateMesh();
+        
+        sphereMesh.transform.parent.position = transform.position;
 
         lastSubdivision = subdivisions;*/
     }
 
     private void createTriangle(int i, Mesh topMesh, Vector3 x, Vector3 y, Vector3 z)
     {
-        GameObject triangle = new GameObject($"triangle_{i}");
         
-        triangle.transform.parent = transform;
-        triangle.AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
-        triangle.AddComponent<MeshFilter>();
+        Destroy(triangles[i]);
         
-        Mesh mesh = triangle.GetComponent<MeshFilter>().mesh;
+        triangles[i] = new GameObject($"triangle_{i}");
+        
+        triangles[i].transform.parent = transform;
+        //triangles[i].AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        triangles[i].AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        //Debug.Log("The shader material is: " + innerSphereMaterial.name);
+        triangles[i].AddComponent<MeshFilter>();
+        
+        Mesh mesh = triangles[i].GetComponent<MeshFilter>().mesh;
 
         Vector3[] verticesArray = {x, y, z};
-        int[] trianglesArray = new int[3];
+        int[] meshTrianglesArray = new int[3];
         
-        trianglesArray[0] = 0;
-        trianglesArray[1] = 1;
-        trianglesArray[2] = 2;
+        meshTrianglesArray[0] = 0;
+        meshTrianglesArray[1] = 1;
+        meshTrianglesArray[2] = 2;
         
         mesh.vertices = verticesArray;
-        mesh.triangles = trianglesArray;
+        mesh.triangles = meshTrianglesArray;
         mesh.RecalculateNormals();
         
     }
