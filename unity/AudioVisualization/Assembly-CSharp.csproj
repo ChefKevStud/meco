@@ -41,16 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\AudioManager2.cs" />
      <Compile Include="Assets\Scripts\Generators\IcosahedronGenerator.cs" />
-     <Compile Include="Assets\Scripts\TerrainFaces2.cs" />
      <Compile Include="Assets\Scripts\Utils\Polygon.cs" />
      <Compile Include="Assets\Scripts\AudioManager3.cs" />
      <Compile Include="Assets\Scripts\Shapes\Icosahedron.cs" />
      <Compile Include="Assets\Scripts\RotateCamera.cs" />
-     <Compile Include="Assets\Scripts\Planet.cs" />
-     <Compile Include="Assets\Scripts\TerrainFaces.cs" />
      <None Include="Assets\Resources\BillingMode.json" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
