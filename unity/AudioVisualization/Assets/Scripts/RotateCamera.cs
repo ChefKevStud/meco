@@ -64,9 +64,6 @@ public class RotateCamera : MonoBehaviour
         {
             mousePosDeltaX = lastMousePosX - Input.mousePosition.x;
             mousePosDeltaY = lastMousePosY - Input.mousePosition.y;
-            
-            //transform.Rotate(0, -mousePosDeltaX * Time.deltaTime, 0);
-            //transform.Rotate(0, 0, -mousePosDeltaY * Time.deltaTime);
 
             rotationDirection = new Vector3(0, -mousePosDeltaX * Time.deltaTime, 0);
             

@@ -15,11 +15,6 @@ public class IcosahedronGenerator
         polygons = new List<Polygon>();
         vertices = new List<Vector3>();
 
-        // An icosahedron has 12 vertices, and
-        // since it's completely symmetrical the
-        // formula for calculating them is kind of
-        // symmetrical too:
-
         float t = (1.0f + Mathf.Sqrt(5.0f)) / 2.0f;
 
         vertices.Add(new Vector3(-1, t, 0).normalized);
@@ -34,9 +29,7 @@ public class IcosahedronGenerator
         vertices.Add(new Vector3(t, 0, 1).normalized);
         vertices.Add(new Vector3(-t, 0, -1).normalized);
         vertices.Add(new Vector3(-t, 0, 1).normalized);
-
-        // And here's the formula for the 20 sides,
-        // referencing the 12 vertices we just created.
+        
         polygons.Add(new Polygon(0, 11, 5));
         polygons.Add(new Polygon(0, 5, 1));
         polygons.Add(new Polygon(0, 1, 7));
@@ -71,45 +64,30 @@ public class IcosahedronGenerator
                 int a = poly.vertices[0];
                 int b = poly.vertices[1];
                 int c = poly.vertices[2];
-                // Use GetMidPointIndex to either create a
-                // new vertex between two old vertices, or
-                // find the one that was already created.
+                
                 int ab = GetMidPointIndex(midPointCache, a, b);
                 int bc = GetMidPointIndex(midPointCache, b, c);
                 int ca = GetMidPointIndex(midPointCache, c, a);
-                // Create the four new polygons using our original
-                // three vertices, and the three new midpoints.
+                
                 newPolys.Add(new Polygon(a, ab, ca));
                 newPolys.Add(new Polygon(b, bc, ab));
                 newPolys.Add(new Polygon(c, ca, bc));
                 newPolys.Add(new Polygon(ab, bc, ca));
             }
-            // Replace all our old polygons with the new set of
-            // subdivided ones.
             polygons = newPolys;
         }
     }
 
     public int GetMidPointIndex(Dictionary<int, int> cache, int indexA, int indexB)
     {
-        // We create a key out of the two original indices
-        // by storing the smaller index in the upper two bytes
-        // of an integer, and the larger index in the lower two
-        // bytes. By sorting them according to whichever is smaller
-        // we ensure that this function returns the same result
-        // whether you call
-        // GetMidPointIndex(cache, 5, 9)
-        // or...
-        // GetMidPointIndex(cache, 9, 5)
         int smallerIndex = Mathf.Min(indexA, indexB);
         int greaterIndex = Mathf.Max(indexA, indexB);
         int key = (smallerIndex << 16) + greaterIndex;
-        // If a midpoint is already defined, just return it.
+        
         int ret;
         if (cache.TryGetValue(key, out ret))
             return ret;
-        // If we're here, it's because a midpoint for these two
-        // vertices hasn't been created yet. Let's do that now!
+        
         Vector3 p1 = vertices[indexA];
         Vector3 p2 = vertices[indexB];
         Vector3 middle = Vector3.Lerp(p1, p2, 0.5f).normalized;

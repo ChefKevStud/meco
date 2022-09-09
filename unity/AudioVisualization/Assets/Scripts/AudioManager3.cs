@@ -22,55 +22,21 @@ public class AudioManager3: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //set audio source
+        // set audio source
         audioSource = GetComponent<AudioSource>();
 
-        //instanciate sphere with mesh objects
+        // instanciate sphere with mesh objects
 
         sphere = new GameObject();
-        sphere.AddComponent<Icosahedron>().innerSphereMaterial = innerSphereMaterial;;
-
-        //sphere.GetComponent<Icosahedron>().innerSphereMaterial = innerSphereMaterial;
+        sphere.AddComponent<Icosahedron>();
 
         Vector3 startPosition = sphere.transform.position;
         sphere.transform.position = new Vector3(startPosition.x, yPositionOffset + sphere.transform.lossyScale.y, startPosition.z);
 
         lastPosArr = new Vector3[sphere.transform.childCount];
 
-        /*Proof of Concept
-        for (int i = 0; i < sphere.transform.childCount - 1; i++)
-        {
-            var segmentObj = sphere.transform.Find($"triangle_{i}").gameObject;
-            Mesh mesh = segmentObj.GetComponent<MeshFilter>().mesh;
-            //Mesh viewModel = viewModelFilter.mesh;
-
-            Debug.Log(segmentObj.name);
-            
-            Vector3[] verticies = mesh.vertices;
-            /*foreach (var verticy in verticies)
-            {
-                Debug.Log(verticy);
-            }#1#
-            
-            Debug.Log($"a: {verticies[0]} | -b: {-1 * verticies[1]} | c: {verticies[2]}");
-
-            Vector3 ab = verticies[1] - verticies[0];
-            Vector3 ac = verticies[2] - verticies[0];
-            
-            Debug.Log($"ab: {ab} | ac: {ac}");
-            
-            //Vector3 moveVector = Vector3.Cross( verticies[0], -1 * verticies[1]);
-            Vector3 moveVector = Vector3.Cross( ab, ac);
-            
-            Debug.Log(moveVector);
-
-            segmentObj.transform.position = moveVector;
-
-        }*/
-
     }
 
-    // Update is called once per frame
     void Update()
     {
         //get the spectrum from audio source and update samples array
@@ -92,8 +58,6 @@ public class AudioManager3: MonoBehaviour
             
             var segment = sphere.transform.Find($"triangle_{i}");
 
-            
-            // input from PoC
             var segmentObj = segment.gameObject;
             Mesh mesh = segmentObj.GetComponent<MeshFilter>().mesh;
             
@@ -102,15 +66,12 @@ public class AudioManager3: MonoBehaviour
             Vector3 ab = verticies[1] - verticies[0];
             Vector3 ac = verticies[2] - verticies[0];
             
-            // moveVector replaced with newPos
             newPos = Vector3.Cross( ab, ac) * (samples[i] * amplification);
             
             var initialPos = new Vector3(0, 0, 0);
-            //moveAwayY = samples[i] * 10;
 
             var moveBack = Vector3.Lerp(lastPosArr[i], - lastPosArr[i], 1);
             segment.transform.Translate(moveBack);
-            //newPos = new Vector3(0, moveAwayY, 0);
             var moveAway = Vector3.Lerp(initialPos, newPos, 1);
             
             segment.transform.Translate(moveAway);

@@ -38,12 +38,9 @@ public class Icosahedron : MonoBehaviour
 
         this.sphereObj = new GameObject("Sphere Mesh");
         this.sphereObj.transform.parent = this.transform;
-
-        //MeshRenderer surfaceRenderer = this.sphereMesh.AddComponent<MeshRenderer>();
-        this.sphereObj.AddComponent<MeshRenderer>().sharedMaterial = innerSphereMaterial;
-        //this.sphereMesh.AddComponent<MeshRenderer>().sharedMaterial = innerSphereMaterial;
-        //surfaceRenderer.sharedMaterial = new Material(shader);
         
+        this.sphereObj.AddComponent<MeshRenderer>().sharedMaterial = innerSphereMaterial;
+
         if (sphereMesh) sphereMesh.Clear();
         sphereMesh = new Mesh();
 
@@ -81,51 +78,15 @@ public class Icosahedron : MonoBehaviour
         terrainFilter.sharedMesh = sphereMesh;
     }
 
-    /*IEnumerator Destroy(GameObject go)
-    {
-        yield return new WaitForEndOfFrame();
-        DestroyImmediate(go);
-    }*/
-
-    private void Start()
-    {
-        
-        //innerSphereMaterial = Resources.Load("../Material/InnerSphere.mat", typeof(Material)) as Material;
-        //innerSphereMaterial.shader = Shader.Find("Standard");
-        /*
-        lastSubdivision = subdivisions;
-        GenerateMesh();*/
-    }
-
     private void OnValidate()
     {
         innerSphereMaterial = Resources.Load("InnerSphere") as Material;
         triangleMaterial = Resources.Load("TriangleMaterial") as Material;
         
-        /**/if (subdivisions != lastSubdivision)
+        if (subdivisions != lastSubdivision)
             GenerateMesh();
 
         lastSubdivision = subdivisions;
-    }
-
-    private void Update()
-    {
-
-        //GenerateMesh();
-        /*Vector3 spherePos = new Vector3();
-
-        if (subdivisions != lastSubdivision && sphereMesh != null)
-        {
-            GenerateMesh();
-            //spherePos = sphereMesh.transform.position;
-        }
-        
-        if (subdivisions != lastSubdivision && !transform.parent.position.Equals(spherePos))
-            GenerateMesh();
-        
-        sphereMesh.transform.parent.position = transform.position;
-
-        lastSubdivision = subdivisions;*/
     }
 
     private void createTriangle(int i, Mesh topMesh, Vector3 x, Vector3 y, Vector3 z)
@@ -136,9 +97,7 @@ public class Icosahedron : MonoBehaviour
         triangles[i] = new GameObject($"triangle_{i}");
         
         triangles[i].transform.parent = transform;
-        //triangles[i].AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
         triangles[i].AddComponent<MeshRenderer>().sharedMaterial = triangleMaterial;
-        //Debug.Log("The shader material is: " + innerSphereMaterial.name);
         triangles[i].AddComponent<MeshFilter>();
         
         Mesh mesh = triangles[i].GetComponent<MeshFilter>().mesh;
