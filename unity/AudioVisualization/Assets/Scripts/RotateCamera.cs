@@ -32,12 +32,12 @@ public class RotateCamera : MonoBehaviour
         if (Input.GetKey("f") && speed < 64)
         {
             speed += 2;
-            rotationDirection = new Vector3(0, speed * Time.deltaTime, 0);
+            rotationDirection *= (speed * Time.deltaTime);
         }
         if (Input.GetKey("s") && speed > 0)
         {
             speed -= 2;
-            rotationDirection = new Vector3(0, speed * Time.deltaTime, 0);
+            rotationDirection *= (speed * Time.deltaTime);
         }
 
         if (Input.GetKey("right"))
