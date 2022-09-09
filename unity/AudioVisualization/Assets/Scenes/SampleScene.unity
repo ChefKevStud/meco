@@ -2223,5 +2223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90537a9184f4a69881196623e2fa424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 1
   yPositionOffset: 1
+  mainCamera: {fileID: 0}
