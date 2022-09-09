@@ -23,6 +23,7 @@ public class Icosahedron : MonoBehaviour
     
     [NotNull]
     public Material innerSphereMaterial;
+    public Material triangleMaterial;
 
     public void GenerateMesh()
     {
@@ -99,6 +100,7 @@ public class Icosahedron : MonoBehaviour
     private void OnValidate()
     {
         innerSphereMaterial = Resources.Load("InnerSphere") as Material;
+        triangleMaterial = Resources.Load("TriangleMaterial") as Material;
         
         /**/if (subdivisions != lastSubdivision)
             GenerateMesh();
@@ -135,7 +137,7 @@ public class Icosahedron : MonoBehaviour
         
         triangles[i].transform.parent = transform;
         //triangles[i].AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
-        triangles[i].AddComponent<MeshRenderer>().sharedMaterial = new Material(Shader.Find("Standard"));
+        triangles[i].AddComponent<MeshRenderer>().sharedMaterial = triangleMaterial;
         //Debug.Log("The shader material is: " + innerSphereMaterial.name);
         triangles[i].AddComponent<MeshFilter>();
         
