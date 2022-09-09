@@ -7,7 +7,7 @@ using UnityEngine;
 public class AudioManager3: MonoBehaviour
 {
     AudioSource audioSource;
-    public float[] samples = new float[512];
+    public float[] samples = new float[320];
     public static float[] freqBand = new float[8];
 
     private GameObject sphere;
