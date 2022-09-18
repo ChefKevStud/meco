@@ -164,9 +164,9 @@
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\Drawers\Layers\MarkersLayer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Recording\TimelineRecording.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Window\Modes\TimelineInactiveMode.cs" />
-     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Recording\TimelineRecording_Monobehaviour.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\Drawers\TrackDrawer.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\treeview\Snapping\SnapEngine.cs" />
+     <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Recording\TimelineRecording_Monobehaviour.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\Utils\EditModeUtils.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\Manipulators\TimelineClipGroup.cs" />
      <Compile Include="Library\PackageCache\com.unity.timeline@1.6.4\Editor\inspectors\TimelineAssetInspector.cs" />
@@ -566,6 +566,9 @@
      <Reference Include="UnityEditor.WebGL.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.Android.Extensions">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEditor.WindowsStandalone.Extensions">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
@@ -595,6 +598,12 @@
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>C:\git\studies\semester_4\meco\unity\AudioVisualization\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Types">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Android.Gradle">
+     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
