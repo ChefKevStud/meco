@@ -20,7 +20,7 @@ public class RotateCamera : MonoBehaviour
     private bool mouseControl = false;
     private float formerSpeed = 1;
 
-    private float rotationConstant = .5f;
+    private float rotationConstant = 1f;
     
     public GameObject speedLabel;
     private TextMeshProUGUI speedLabelText;
@@ -81,16 +81,23 @@ public class RotateCamera : MonoBehaviour
                 rotationDirection = new Vector3();
             }
             
-            if (speed != formerSpeed || !(rotationDirection.Equals(formerRotationDirection))) 
+            if (speed != formerSpeed) 
             {
                 if (formerSpeed == 0) formerSpeed = 1;
-            
-                rotationDirection /= formerSpeed;
+
+                float rotationSum = (rotationDirection.x + rotationDirection.y + rotationDirection.z);
+                if (rotationSum == 0) rotationSum = 1;
+
+                rotationDirection /= rotationSum;
                 rotationDirection *= speed;
 
                 formerSpeed = speed;
                 
                 SetSpeedText(speed);
+            }
+            else if (!(rotationDirection.Equals(formerRotationDirection)))
+            {
+                rotationDirection *= speed;
             }
             
         }
