@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
 using Newtonsoft.Json;
@@ -24,6 +25,8 @@ public class Icosahedron : MonoBehaviour
     [NotNull]
     public Material innerSphereMaterial;
     public Material triangleMaterial;
+    
+    public float yPositionOffset = 0;
 
     public void GenerateMesh()
     {
@@ -78,7 +81,7 @@ public class Icosahedron : MonoBehaviour
         terrainFilter.sharedMesh = sphereMesh;
     }
 
-    private void OnValidate()
+    private void OnRenderObject()
     {
         innerSphereMaterial = Resources.Load("InnerSphere") as Material;
         triangleMaterial = Resources.Load("TriangleMaterial") as Material;
@@ -87,6 +90,9 @@ public class Icosahedron : MonoBehaviour
             GenerateMesh();
 
         lastSubdivision = subdivisions;
+
+        Vector3 startPosition = transform.position;
+        transform.position = new Vector3(startPosition.x, yPositionOffset + transform.lossyScale.y, startPosition.z);
     }
 
     private void createTriangle(int i, Mesh topMesh, Vector3 x, Vector3 y, Vector3 z)

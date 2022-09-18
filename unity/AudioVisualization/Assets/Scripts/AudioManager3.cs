@@ -30,8 +30,7 @@ public class AudioManager3: MonoBehaviour
         sphere = new GameObject();
         sphere.AddComponent<Icosahedron>();
 
-        Vector3 startPosition = sphere.transform.position;
-        sphere.transform.position = new Vector3(startPosition.x, yPositionOffset + sphere.transform.lossyScale.y, startPosition.z);
+        sphere.GetComponent<Icosahedron>().yPositionOffset = yPositionOffset;
 
         lastPosArr = new Vector3[sphere.transform.childCount];
 
