@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualScripting.Shared.Editor", "Unity.VisualScripting.Shared.Editor.csproj", "{4456856b-21ce-6425-d9b9-79034bfe0a59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{369eddab-713c-42da-8a4e-2aa55944e8ec}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PlasticSCM.EditorTests", "Unity.PlasticSCM.EditorTests.csproj", "{6fd18488-09eb-ab33-af2b-baddc99c727b}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TestTools.CodeCoverage.Editor.Compatibility", "Unity.TestTools.CodeCoverage.Editor.Compatibility.csproj", "{20e46036-fce5-2518-1cc2-580b14482dde}"
@@ -194,6 +196,8 @@ Global
 		{56da6362-8bb8-236f-c388-e1469baf546d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4456856b-21ce-6425-d9b9-79034bfe0a59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4456856b-21ce-6425-d9b9-79034bfe0a59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369eddab-713c-42da-8a4e-2aa55944e8ec}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369eddab-713c-42da-8a4e-2aa55944e8ec}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6fd18488-09eb-ab33-af2b-baddc99c727b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6fd18488-09eb-ab33-af2b-baddc99c727b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20e46036-fce5-2518-1cc2-580b14482dde}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

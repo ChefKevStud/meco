@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 118
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Skybox/Cubemaps
+    - Assets/StreetLightsPack/Models/StreetLights1
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Skybox/Cubemaps
+  - Assets/StreetLightsPack/Models/StreetLights1
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\git\studies\semester_4\meco\unity\ModellingFHNW
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9e5b0000
-    m_LastClickedID: 23454
-    m_ExpandedIDs: 000000002e5b0000a05b000000ca9a3bffffff7f
+    m_SelectedIDs: ba6d0000
+    m_LastClickedID: 28090
+    m_ExpandedIDs: 00000000325b00003e5b0000445b0000665b0000785e000084640000ba640000d66400005a650000b06d0000bc6d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002e5b0000
+    m_ExpandedIDs: 00000000325b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9e5b0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
+      m_ExpandedIDs: 9ad4ffff5ed5ffff2ae0ffff4ee7ffff34fbffffa45a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -37.97237, y: 0.49999857, z: -86.44961}
+    m_Target: {x: -15.959999, y: 1.5200002, z: -402.52}
     speed: 2
-    m_Value: {x: -37.97237, y: 0.49999857, z: -86.44961}
+    m_Value: {x: -15.959999, y: 1.5200002, z: -402.52}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.12800573, y: 0.8504716, z: -0.24255423, w: -0.4489434}
+    m_Target: {x: -0.18255247, y: 0.46399567, z: -0.09823649, w: -0.8613037}
     speed: 2
-    m_Value: {x: -0.12867442, y: 0.85007703, z: -0.24382117, w: -0.44873518}
+    m_Value: {x: -0.18268941, y: 0.46267733, z: -0.097957075, w: -0.8619505}
   m_Size:
-    m_Target: 134.32274
+    m_Target: 5.281461
     speed: 2
-    m_Value: 140.65208
+    m_Value: 5.5303254
   m_Ortho:
     m_Target: 0
     speed: 2
