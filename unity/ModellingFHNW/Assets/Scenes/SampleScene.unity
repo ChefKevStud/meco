@@ -5001,6 +5001,7 @@ GameObject:
   - component: {fileID: 1411523430}
   - component: {fileID: 1411523429}
   - component: {fileID: 1411523433}
+  - component: {fileID: 1411523434}
   m_Layer: 0
   m_Name: movie_plane
   m_TagString: Untagged
@@ -5122,6 +5123,21 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1411523434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411523428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ba642729bba70b4484da827bd252c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _videoPlayer: {fileID: 1411523433}
+  state: 0
+  playKey: 306
 --- !u!1 &1434796996
 GameObject:
   m_ObjectHideFlags: 0
