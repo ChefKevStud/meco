@@ -7,37 +7,26 @@ public class videoController : MonoBehaviour
 {
 
     public VideoPlayer _videoPlayer;
-    public int state = 0;
+    private bool isReset = true;
 
     [Header("Keybinds")]
-    public KeyCode playKey = KeyCode.LeftControl;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    private KeyCode playKey = KeyCode.LeftControl;
+    
     void Update()
     {
-        if (Input.GetKey(playKey) && state == 0)
+        if (Input.GetKeyUp(playKey) && (isReset || _videoPlayer.isPaused))
         {
-            Debug.Log("Called to play");
             _videoPlayer.Play();
-            state = 1;
+            isReset = false;
         }
-        else if (Input.GetKey(playKey) && state == 1)
+        else if (Input.GetKeyUp(playKey) && _videoPlayer.isPlaying)
         {
-            Debug.Log("Called to pause");
             _videoPlayer.Pause();
-            state = 0;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.F1))
         {
-            Debug.Log("Called to stop");
             _videoPlayer.Stop();
-            state = 0;
+            isReset = true;
         }
     }
 }

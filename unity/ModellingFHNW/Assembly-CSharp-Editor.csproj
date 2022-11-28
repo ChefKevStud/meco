@@ -43,8 +43,8 @@
   <ItemGroup>
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\DepthOfField\Editor\DepthOfFieldEditor.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\TonemappingColorGrading\Editor\TonemappingColorGradingEditor.cs" />
-     <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Editor\ScreenSpaceReflectionEditor.cs" />
      <Compile Include="Assets\Nicrom\PolyPacks\Wind\Assets\Scripts\Editor\LPVegetation_MaterialInspector.cs" />
+     <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\ScreenSpaceReflection\Editor\ScreenSpaceReflectionEditor.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity 2021.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
