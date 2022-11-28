@@ -10,7 +10,8 @@ public class videoController : MonoBehaviour
     private bool isReset = true;
 
     [Header("Keybinds")]
-    private KeyCode playKey = KeyCode.LeftControl;
+    public KeyCode playKey = KeyCode.Tab;
+    public KeyCode resetKey = KeyCode.Backspace;
     
     void Update()
     {
@@ -23,7 +24,7 @@ public class videoController : MonoBehaviour
         {
             _videoPlayer.Pause();
         }
-        else if (Input.GetKey(KeyCode.F1))
+        else if (Input.GetKey(resetKey))
         {
             _videoPlayer.Stop();
             isReset = true;
