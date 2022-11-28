@@ -5932,10 +5932,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6199696995164831811, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
     - target: {fileID: -4969506558817801323, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1e211062efaca4dc9afc5a58b849e554, type: 2}
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
+    - target: {fileID: -2885667693350321590, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
     - target: {fileID: -2174023274212151038, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5956,10 +5964,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.157
       objectReference: {fileID: 0}
+    - target: {fileID: 813614935350357984, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
     - target: {fileID: 919132149155446097, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
       propertyPath: m_Name
       value: map_FHNW
       objectReference: {fileID: 0}
+    - target: {fileID: 2613603812308142591, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
+    - target: {fileID: 2613603812308142591, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12bf03deaa146194db3bfec1afec32ac, type: 2}
     - target: {fileID: 3808266848986056168, guid: 6d307721cadd03e42b4bfcced049f84e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 10
@@ -6541,7 +6561,7 @@ GameObject:
   - component: {fileID: 1276406148}
   - component: {fileID: 1276406147}
   - component: {fileID: 1276406146}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
