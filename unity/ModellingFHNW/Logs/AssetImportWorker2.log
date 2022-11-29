@@ -1,0 +1,1732 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.25247) 64bit Core' Language: 'en' Physical Memory: 32353 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/git/studies/semester_4/meco/unity/ModellingFHNW
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49882
+Successfully changed project path to: C:/git/studies/semester_4/meco/unity/ModellingFHNW
+C:/git/studies/semester_4/meco/unity/ModellingFHNW
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 241.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/git/studies/semester_4/meco/unity/ModellingFHNW/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   27.21.14.6259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008036 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 179.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1652ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1190ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (691ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (368ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.017585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.758 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2761ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2197ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (746ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (983ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.6 MB). Loaded Objects now: 4015.
+Memory consumption went from 160.5 MB to 160.0 MB.
+Total: 9.622200 ms (FindLiveObjects: 0.555200 ms CreateObjectMapping: 0.527900 ms MarkObjects: 7.748000 ms  DeleteObjects: 0.788300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355845.268760 seconds.
+  path: Assets/street_light.prefab
+  artifactKey: Guid(ff073b6ea2a4ca7438d3d59130186868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/street_light.prefab using Guid(ff073b6ea2a4ca7438d3d59130186868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffb673f742e83e26d6226380c31e0a5') in 0.557297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.559107 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3a1c0c499d1e111cda068b8a79a4d6') in 0.008113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.538984 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat
+  artifactKey: Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Lamps.mat using Guid(98f7409cb2311754790226154951b58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1415b242ef41209dedaf6e59ca4ab9f7') in 0.106884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Purple.prefab
+  artifactKey: Guid(af1ac63e97bac7443a056ef936b7d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_4_Purple.prefab using Guid(af1ac63e97bac7443a056ef936b7d425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31ef1f9a466a29d76c2584f647e86cb') in 0.064967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Models/Car 1.fbx
+  artifactKey: Guid(5a4f86d32435a4c4ca96a487a3a32b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Models/Car 1.fbx using Guid(5a4f86d32435a4c4ca96a487a3a32b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcb7192c37f9e14ba9add9e0e0d6fd1') in 0.379656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Free/WASTEBIN_TYPE23_L9_MAP_001.tga
+  artifactKey: Guid(8f640c52265776d4fa21faff1fc3265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/WASTEBIN_TYPE23_L9_MAP_001.tga using Guid(8f640c52265776d4fa21faff1fc3265f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bad3f59afab7ed4f10f942cf39aeea') in 0.077107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Modern_Bench Pack/Prefabs/Nail/Mesh/Nail.asset
+  artifactKey: Guid(d1380b8a64ce74ded80d2fcb84459f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_Bench Pack/Prefabs/Nail/Mesh/Nail.asset using Guid(d1380b8a64ce74ded80d2fcb84459f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e3a00e2b3f34cddf07c6bbe6e504c8') in 0.060929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat
+  artifactKey: Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Paint_Silver.mat using Guid(2a6c8fdceeee488418663a46854ab545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd418a0686ce822d1a5128236587eb211') in 0.056286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat
+  artifactKey: Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Materials/PBR/Car_Rubber.mat using Guid(6d2772f3b3b6e97469d2b0a9b385ff1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e80734aaf629164f22e45cd14394588') in 0.046674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Green.prefab
+  artifactKey: Guid(4d4a5328e032911409d8d973eee79df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_2_Green.prefab using Guid(4d4a5328e032911409d8d973eee79df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464799ea01a6ed52569a283a793894b9') in 0.065003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Green.prefab
+  artifactKey: Guid(039320a8f4b60c445acfae631ac0214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Green.prefab using Guid(039320a8f4b60c445acfae631ac0214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c454c7c9baf2ad206b49ba01adcea4') in 0.065753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Modern_Bench Pack/Materials/Steel.mat
+  artifactKey: Guid(9356909c3b11a4d2798e8590ab2a3db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_Bench Pack/Materials/Steel.mat using Guid(9356909c3b11a4d2798e8590ab2a3db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065418577eaf4748975287e2a371ff40') in 0.049415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Palettes/Palette_Green.png
+  artifactKey: Guid(6669a8090d705f14593e50a03512ee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Palettes/Palette_Green.png using Guid(6669a8090d705f14593e50a03512ee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263758ad35401395540ccd6ab9ef515c') in 0.054251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Blue.prefab
+  artifactKey: Guid(bd428ed7f76466742916f85241c6bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_1_Blue.prefab using Guid(bd428ed7f76466742916f85241c6bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0b32a0aceb1b8e8673dfa2566382b7') in 0.055384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Silver.prefab
+  artifactKey: Guid(89aba3f23076d03448c61b5cebf2ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_6_Silver.prefab using Guid(89aba3f23076d03448c61b5cebf2ac8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6cfa47e966531c1a5cc3f32457bfaa') in 0.061097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Palettes/Palette_Purple.png
+  artifactKey: Guid(03b0cab94769f0648b774960f999f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Palettes/Palette_Purple.png using Guid(03b0cab94769f0648b774960f999f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003cbe7a890b1589b3b16846139b03d8') in 0.040213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Free/WASTEBIN_TYPE23_L9_SPE_001.tga
+  artifactKey: Guid(ca2401ef400167143be6fa2b7a6ae342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Free/WASTEBIN_TYPE23_L9_SPE_001.tga using Guid(ca2401ef400167143be6fa2b7a6ae342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d025aa432433546824bcbd90a63995a') in 0.061338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Materials/building_texture.jpg
+  artifactKey: Guid(b5f5e6f5004e1f349a98632982bb13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/building_texture.jpg using Guid(b5f5e6f5004e1f349a98632982bb13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dbfcd388e4f5ac65a20d00e4407b9f') in 0.053261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Green.prefab
+  artifactKey: Guid(4306cd5466419674c91dc425c00e18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyCarPack/Prefabs/Car_5_Green.prefab using Guid(4306cd5466419674c91dc425c00e18db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2758d929a382721fc853bde3efcbb23') in 0.081891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.020922 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat8.mat
+  artifactKey: Guid(eb5866c475309e24ca426e1243f57031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat8.mat using Guid(eb5866c475309e24ca426e1243f57031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d32bd5784da7a6af9f692cdef111331') in 0.037082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat2.mat
+  artifactKey: Guid(0ed58da6df81cc94896a5e65ecc91f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat2.mat using Guid(0ed58da6df81cc94896a5e65ecc91f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c109aff1329b4971d24607d3a717c409') in 0.069255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_TextureAtlas_01.png
+  artifactKey: Guid(225da740038919f4ca9eaff413945956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Textures/LPW_TextureAtlas_01.png using Guid(225da740038919f4ca9eaff413945956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1e2a9bcabd1a4c2fffab842a0b80ad') in 0.029040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.214692 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader
+  artifactKey: Guid(f9d5fa183cd6b45eeb1491f74863cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader using Guid(f9d5fa183cd6b45eeb1491f74863cd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea327ef9dabea5ce9ed67825fecde206') in 0.018676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009798 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f009969068b66ed38406c63cdcb957') in 0.027833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028750 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs
+  artifactKey: Guid(dd6d4281e5d7cd44d8c6e38bc2c1b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs using Guid(dd6d4281e5d7cd44d8c6e38bc2c1b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee31ccc92631d06b1958c039f9ac40f8') in 0.020631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009241 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader
+  artifactKey: Guid(987fb0677d01f43ce8a9dbf12271e668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader using Guid(987fb0677d01f43ce8a9dbf12271e668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eb2534ad1fee771d55dbf171049c39') in 0.010282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023206 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat16.mat
+  artifactKey: Guid(9b5d8d92fbdb7ff4596d2e40dc4a3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat16.mat using Guid(9b5d8d92fbdb7ff4596d2e40dc4a3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a8bac6307a495789193215c7f8aa21') in 0.026364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010223 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader
+  artifactKey: Guid(f4901f25d4e1542589348bbb89563d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader using Guid(f4901f25d4e1542589348bbb89563d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6118174101032351d76b18d1888b7ce2') in 0.012083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009341 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader
+  artifactKey: Guid(a9df009a214e24a5ebbf271595f8d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader using Guid(a9df009a214e24a5ebbf271595f8d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbf63f0a4d7a932e0c0c55bb7bc4187') in 0.011723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020681 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs
+  artifactKey: Guid(6f19108706fdce9469603d07980eb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs using Guid(6f19108706fdce9469603d07980eb8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d02041a2028d91dc2bb2cc566f481dd') in 0.011237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009316 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader
+  artifactKey: Guid(874ceab4425f64bccb1d14032f4452b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/FisheyeShader.shader using Guid(874ceab4425f64bccb1d14032f4452b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190c83aac9b704e2bab1d29b1c22c13a') in 0.011647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006445 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader
+  artifactKey: Guid(14768d3865b1342e3a861fbe19ba2db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ConvertDepth.shader using Guid(14768d3865b1342e3a861fbe19ba2db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd934e267b30ef846e6da8c948220ab08') in 0.010258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006264 seconds.
+  path: Assets/Table and chair/Table/Prefab/Table.prefab
+  artifactKey: Guid(83aae98f19433bf44bb2613869ec2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Prefab/Table.prefab using Guid(83aae98f19433bf44bb2613869ec2b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5d305c7475a10028a311c69c36ff60') in 0.094759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009166 seconds.
+  path: Assets/Table and chair/Table/Model/Table.FBX
+  artifactKey: Guid(91b21410e82326c41829a7cd5ef7ffae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Model/Table.FBX using Guid(91b21410e82326c41829a7cd5ef7ffae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b65819aaace5c64e221c759e177716') in 0.030253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006969 seconds.
+  path: Assets/Table and chair/Table/Material/Table_Material.mat
+  artifactKey: Guid(a33688ddf0b4299469d5dc2c71d3570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Material/Table_Material.mat using Guid(a33688ddf0b4299469d5dc2c71d3570f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b999c2c9b937a2be76a719ebee1bcbb') in 0.045656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009052 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs
+  artifactKey: Guid(bdda781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs using Guid(bdda781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8051363f378cae9a3e5892eee27b808') in 0.009369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009259 seconds.
+  path: Assets/StoneFloorTexture/stone_floor_d.png
+  artifactKey: Guid(6450329bf1bc5314d894e25d73e26b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneFloorTexture/stone_floor_d.png using Guid(6450329bf1bc5314d894e25d73e26b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacdb1e2fc846d1c192e159e4b065b7a') in 0.018922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039478 seconds.
+  path: Assets/Skybox/Cubemaps/daytime.hdr
+  artifactKey: Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Cubemaps/daytime.hdr using Guid(1cde0e200e792cb4491204276a656490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2368aae2b3ec81e57373d57dee1218b') in 0.164749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007784 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat7.jpg
+  artifactKey: Guid(7a040a9e05b236447a8539f24d5c6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat7.jpg using Guid(7a040a9e05b236447a8539f24d5c6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be44c46a0c0ebed759edac534b7e64ab') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010347 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+  artifactKey: Guid(459fe69d2f6d74ddb92f04dbf45a866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader using Guid(459fe69d2f6d74ddb92f04dbf45a866b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1fa9494528430efe4a3aa6da7f004') in 0.012698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008160 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc
+  artifactKey: Guid(51ae11a5cd82fda468a85179946d672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc using Guid(51ae11a5cd82fda468a85179946d672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4588f0e31275e46a3a54b84a7b9e48c4') in 0.019914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025593 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs
+  artifactKey: Guid(730475ee64f9a894bbac0d9e6f22e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs using Guid(730475ee64f9a894bbac0d9e6f22e813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e76189346283dfc6105b637ca5c6ecd') in 0.010874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008341 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+  artifactKey: Guid(f6469eb0ad1119d6d00011d98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs using Guid(f6469eb0ad1119d6d00011d98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce43e3d3991ad02acf9bc7cedda15be') in 0.009906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007080 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+  artifactKey: Guid(ce0cb2621f6d84e21a87414e471a3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader using Guid(ce0cb2621f6d84e21a87414e471a3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0738991cf4f7ce04ccc8b21bd3e4f3fe') in 0.012387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009906 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+  artifactKey: Guid(daf9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader using Guid(daf9781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdea82b5706b911ce0a73f9cb32aee8') in 0.011942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006912 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/DepthOfField.shader
+  artifactKey: Guid(bff0e5458fb914f5c9985ba4f09171d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/DepthOfField.shader using Guid(bff0e5458fb914f5c9985ba4f09171d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba65dbe41f12c8ccd1d23e4788f80355') in 0.010124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007122 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd
+  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919467e961cdd7eceb473e5dc2a780d9') in 0.019103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011410 seconds.
+  path: Assets/Table and chair/Chair/Maps/Chair_Normals.png
+  artifactKey: Guid(28a0fb06640fd9f43a0199063234bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Maps/Chair_Normals.png using Guid(28a0fb06640fd9f43a0199063234bdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4afe8592b437bfbff5a2e7ccb97456') in 0.030067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017715 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat12.mat
+  artifactKey: Guid(942181f2f5cbb9a48bcfbf77713968b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat12.mat using Guid(942181f2f5cbb9a48bcfbf77713968b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab2dbcde5fc152974822cf081b640e1') in 0.022585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009757 seconds.
+  path: Assets/Tree9/Materials/leaf.mat
+  artifactKey: Guid(3b81562ccc7e92543a108e811251a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Materials/leaf.mat using Guid(3b81562ccc7e92543a108e811251a16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f43f2d90702d86a133b184626703f') in 0.037285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007781 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat4.mat
+  artifactKey: Guid(1a6072841a9959243a0dece139196933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat4.mat using Guid(1a6072841a9959243a0dece139196933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d2c1443991cb598c5c7c26fc525f5b') in 0.022533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007561 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat10.jpg
+  artifactKey: Guid(9576c7fa99dad474ab30f11393465328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat10.jpg using Guid(9576c7fa99dad474ab30f11393465328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2e1cf6215f7c3df9229d7a05ef20ae') in 0.018293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010410 seconds.
+  path: Assets/Tree9/Tree9_1_Textures/normal_specular.png
+  artifactKey: Guid(34bf97c9a44d6a24e9aad37f9f1e5e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_1_Textures/normal_specular.png using Guid(34bf97c9a44d6a24e9aad37f9f1e5e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534274afe41c7ee98efb45fc18fdbfc4') in 0.021683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019780 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Editor/TonemappingColorGradingEditor.cs
+  artifactKey: Guid(64bb64b30a05a0d4b8afe58a356fc8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Editor/TonemappingColorGradingEditor.cs using Guid(64bb64b30a05a0d4b8afe58a356fc8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ce327a70830bbc955257218f823744') in 0.010702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007445 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat16.jpg
+  artifactKey: Guid(66315fdc330e7b84da8bc4e0de269908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat16.jpg using Guid(66315fdc330e7b84da8bc4e0de269908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24f1913d9f006b6bf922c50b8336986') in 0.017878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011745 seconds.
+  path: Assets/Tree9/Tree9_4_Textures/normal_specular.png
+  artifactKey: Guid(a40ea611f69ce6140a79cced1a969a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_4_Textures/normal_specular.png using Guid(a40ea611f69ce6140a79cced1a969a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8794677530d78e7f6f8a4e7000754f') in 0.021231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029743 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763ec8e95874a9f664d4cf6bd65d1abe') in 0.018639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024273 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader
+  artifactKey: Guid(95616c020c5604dda96cf76afbbc0272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader using Guid(95616c020c5604dda96cf76afbbc0272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dbfb4c0c003e4288bb8995b6499d5f') in 0.013611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019803 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/Histogram.compute
+  artifactKey: Guid(5ee4b74fa28a3e74e89423dd49705fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/Histogram.compute using Guid(5ee4b74fa28a3e74e89423dd49705fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62968042bc97f85e9187004e33cdb4b') in 0.014679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021103 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs
+  artifactKey: Guid(646b5bc27a658f447b1d929fd5ffbd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs using Guid(646b5bc27a658f447b1d929fd5ffbd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d67723655e60957aabd681a288ad82') in 0.011885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006256 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs
+  artifactKey: Guid(ec92b071d2d424aecb3e46f28eb63174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs using Guid(ec92b071d2d424aecb3e46f28eb63174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28baf1974015eb0cc58851b46020dda7') in 0.010429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054280 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+  artifactKey: Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs using Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bee500925cf6d9cb6908144c70e9b1') in 0.009872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006567 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs
+  artifactKey: Guid(7fc6bde01469c7b4badee5362f191d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs using Guid(7fc6bde01469c7b4badee5362f191d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc70db1d3fc2636863263bdb47bc467') in 0.010323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005687 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs
+  artifactKey: Guid(a88a26a276b4e47619ce2c5adad33fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs using Guid(a88a26a276b4e47619ce2c5adad33fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404833d73953a3a09c02b510cc3ad58e') in 0.010076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006823 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader
+  artifactKey: Guid(6f1418cffd12146f2a83be795f6fa5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader using Guid(6f1418cffd12146f2a83be795f6fa5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489858c814b081ae76f5486ede2b1c62') in 0.013158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008298 seconds.
+  path: Assets/Scripts/videoController.cs
+  artifactKey: Guid(8ba642729bba70b4484da827bd252c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/videoController.cs using Guid(8ba642729bba70b4484da827bd252c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abe5980b245dbd072485cd77af1fcb2') in 0.010822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008149 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/RenderTexureUtility.cs
+  artifactKey: Guid(054e694bae00c374a97c2bc495fca66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/RenderTexureUtility.cs using Guid(054e694bae00c374a97c2bc495fca66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173b1badb326d9ad4d2ded824e1eb25') in 0.011087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021466 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_50cm_01.fbx
+  artifactKey: Guid(02e48aea181058a47acc4c8a06b88f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_50cm_01.fbx using Guid(02e48aea181058a47acc4c8a06b88f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06524a7a97b86886d3268b2040103559') in 0.039383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012075 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/MedianFilter.shader
+  artifactKey: Guid(a058b22d4123add4b807e832604e5e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/MedianFilter.shader using Guid(a058b22d4123add4b807e832604e5e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bc753e2b998e9da2c3e719916faf46') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009750 seconds.
+  path: Assets/Table and chair/Table/Maps/Table_Normals.png
+  artifactKey: Guid(3f2d5283241d80b41aa901ea891e58ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Maps/Table_Normals.png using Guid(3f2d5283241d80b41aa901ea891e58ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99613852d54748f11fee34159f462ccd') in 0.025218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010748 seconds.
+  path: Assets/Skybox/Cubemaps/Materials/daytime.mat
+  artifactKey: Guid(621508bcf720d7a43a535867de9bbcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Cubemaps/Materials/daytime.mat using Guid(621508bcf720d7a43a535867de9bbcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d02194f6c78473461832825620d249') in 0.098403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007206 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs
+  artifactKey: Guid(1fd999d1b2cf94a45a5b0a47ce074bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs using Guid(1fd999d1b2cf94a45a5b0a47ce074bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e11dc516d357016bebf06efa9c35080') in 0.010521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005387 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader
+  artifactKey: Guid(627943dc7a9a74286b70a4f694a0acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/VignettingShader.shader using Guid(627943dc7a9a74286b70a4f694a0acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8f81fa29814e353728a18f2c4fd244') in 0.010100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007518 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat5.mat
+  artifactKey: Guid(fabfc25a6d50e4740a656760f34dc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat5.mat using Guid(fabfc25a6d50e4740a656760f34dc4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835102555e4f51d64786da59fafbb290') in 0.021062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008474 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader
+  artifactKey: Guid(c547503fff0e8482ea5793727057041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader using Guid(c547503fff0e8482ea5793727057041c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace5eecbb16fc142a32ebb0ddd733df4') in 0.010567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007959 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader
+  artifactKey: Guid(0aeaa4cb29f5d4e9c8455f04c8575c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader using Guid(0aeaa4cb29f5d4e9c8455f04c8575c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3004fff2bd801f75fb8a8b7dad1e443') in 0.010266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008078 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader
+  artifactKey: Guid(befbb4b9c320b4b18a08ef7afb93b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader using Guid(befbb4b9c320b4b18a08ef7afb93b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76423f29479eb1aa7a247f3c5087d9d1') in 0.010459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006910 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs
+  artifactKey: Guid(b0923359e9e352a4b9b11c7b7161ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs using Guid(b0923359e9e352a4b9b11c7b7161ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fe7af4c133f426e5ae35d980fe142d') in 0.010498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009458 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c82d2c34b40d489251e41ec5b45bc8') in 0.092234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018821 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+  artifactKey: Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader using Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf6f790a43420adc3deefe96b339221') in 0.012233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007363 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader
+  artifactKey: Guid(7699c5fbfa27745a1abe111ab7bf9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/MotionBlurClear.shader using Guid(7699c5fbfa27745a1abe111ab7bf9785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead3131b4c9253c274ffb0d610fbe1d0') in 0.012360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007052 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat18.jpg
+  artifactKey: Guid(36eda73fa902b9e4693174ffc63d9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat18.jpg using Guid(36eda73fa902b9e4693174ffc63d9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e76da15efc4fc3040a653b442532ca6') in 0.022163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012781 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader
+  artifactKey: Guid(57cdacf9b217546aaa18edf39a6151c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader using Guid(57cdacf9b217546aaa18edf39a6151c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9aa27d519df998941d6ff2a49f25f5') in 0.011699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007417 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader
+  artifactKey: Guid(d3b1c8c1036784176946f5cfbfb7fe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader using Guid(d3b1c8c1036784176946f5cfbfb7fe4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a2ae8e0ed47d4684f4edcb83839850') in 0.010829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007414 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Shaders/ScreenSpaceReflection.shader
+  artifactKey: Guid(7e2fcc83af19e744787647ec0ac5d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Shaders/ScreenSpaceReflection.shader using Guid(7e2fcc83af19e744787647ec0ac5d42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6bc7f004b09b4737c887f4f3ebdc89') in 0.010427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034455 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs
+  artifactKey: Guid(34382083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs using Guid(34382083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ee3e6cf80e7150adedca43b51cc54') in 0.010640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009314 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+  artifactKey: Guid(3309686a9fbbe6e42a182d5e0257704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs using Guid(3309686a9fbbe6e42a182d5e0257704c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab6395bc1bda48ced9df16f074b16c1') in 0.010022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007488 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/TonemappingColorGrading.shader
+  artifactKey: Guid(964b34bbab7f5e64fa40f37eaccac1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/TonemappingColorGrading.shader using Guid(964b34bbab7f5e64fa40f37eaccac1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925fa694586256f606c0083426d4a3f') in 0.011367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006961 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/AntiAliasing.cs
+  artifactKey: Guid(fdc35e0180670ab4e8d2f9439137791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/AntiAliasing.cs using Guid(fdc35e0180670ab4e8d2f9439137791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd0892a8b6f58dbb823286753814731') in 0.009959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009016 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Shaders/ScreenSpaceRaytrace.cginc
+  artifactKey: Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Shaders/ScreenSpaceRaytrace.cginc using Guid(6f70a4658ebf5f947abc302c6b49a6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcacb8238fad6fa36747137e5c06122f') in 0.011391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015798 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat6.jpg
+  artifactKey: Guid(e5920fb551abd8b488f4ca502b7bd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat6.jpg using Guid(e5920fb551abd8b488f4ca502b7bd5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90a9bab6338f3df226d10304369f79f') in 0.020404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012608 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader
+  artifactKey: Guid(186c4c0d31e314f049595dcbaf4ca129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader using Guid(186c4c0d31e314f049595dcbaf4ca129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65dc017fe913bfe6fd07aa74086f85f') in 0.011808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021023 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs
+  artifactKey: Guid(83d8db0ec466c14429f58c68c16398a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs using Guid(83d8db0ec466c14429f58c68c16398a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31935b605987d7e952df15ade0f5e8a7') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007727 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs
+  artifactKey: Guid(a20852ce049f64e4695a48b6a354be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs using Guid(a20852ce049f64e4695a48b6a354be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307451f00e8a3133268e311b1e15a1ea') in 0.010222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009605 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+  artifactKey: Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader using Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d050105340de9091fcbc2bccf1c091') in 0.010742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007456 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat18.mat
+  artifactKey: Guid(bedebf15fc4e5f84c8d2b9943ff4d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat18.mat using Guid(bedebf15fc4e5f84c8d2b9943ff4d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326b79862cbe76a1d7becc4f8fc586c8') in 0.022323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008842 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df96e1bd052c75b1df9a9ac9bb602ef') in 0.022697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019145 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader
+  artifactKey: Guid(d8e82664aa8686642a424c88ab10164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader using Guid(d8e82664aa8686642a424c88ab10164a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edff28df83723e749378a397cae40f1b') in 0.010412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024565 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(0e290b62dcc37da4a9de5b291cb237c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(0e290b62dcc37da4a9de5b291cb237c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04edabd55b5e6eefd5842e6961f12a7f') in 0.010175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007015 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Editor/DepthOfFieldEditor.cs
+  artifactKey: Guid(3eb07ef5681934662814cc768bcdb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Editor/DepthOfFieldEditor.cs using Guid(3eb07ef5681934662814cc768bcdb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252d068f311500793dab122386f6a0be') in 0.009902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007518 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/DepthOfField.cs
+  artifactKey: Guid(8a338d679868f45439ea43c7ae035e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/DepthOfField.cs using Guid(8a338d679868f45439ea43c7ae035e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6dea4277a95d734403cbc1fdcf7c3f') in 0.004003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007653 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat17.jpg
+  artifactKey: Guid(582352735cdae5540b8f14a574588472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat17.jpg using Guid(582352735cdae5540b8f14a574588472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28698ec5f467fa96f4483e5732a93633') in 0.021636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012008 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat5.jpg
+  artifactKey: Guid(0d1ea00a4a1e36143a8e04bf58ff54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat5.jpg using Guid(0d1ea00a4a1e36143a8e04bf58ff54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d7c2e34aa0ae06ac3b3f805e69f771') in 0.020639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012396 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs
+  artifactKey: Guid(b6f4318ec6c2bf643a0f9edfeeaba0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs using Guid(b6f4318ec6c2bf643a0f9edfeeaba0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201cefb4bdc3374f2e20eef664474d16') in 0.010394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006288 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs
+  artifactKey: Guid(a07a781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs using Guid(a07a781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2b68bc3f90314a3340e3ade8fb2c1b') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008102 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader
+  artifactKey: Guid(62bcade1028c24ca1a39760ed84b9487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader using Guid(62bcade1028c24ca1a39760ed84b9487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b433faa95576de84d106bb62ec8cf0') in 0.004447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008497 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png
+  artifactKey: Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseAndGrain.png using Guid(7a632f967e8ad42f5bd275898151ab6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164cabcd356b0b4d3926f4dfc165ecb8') in 0.022229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008945 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader
+  artifactKey: Guid(be6e39cf196f146d5be72fbefb18ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader using Guid(be6e39cf196f146d5be72fbefb18ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4ac5be2a9e420649f9d002b6d8d912') in 0.010033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031761 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_40cm_01.fbx
+  artifactKey: Guid(2b44582523d7fdf48ae9a30dd4e38897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Grass_A1_40cm_01.fbx using Guid(2b44582523d7fdf48ae9a30dd4e38897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c407e5ad16515230046a449c92e9c8fc') in 0.040581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027428 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat1.mat
+  artifactKey: Guid(172d0a91065094f46881bb2eba57e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat1.mat using Guid(172d0a91065094f46881bb2eba57e4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48da3955243f13083d3e98584969c23c') in 0.024491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009048 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat4.jpg
+  artifactKey: Guid(acce341228dfb874d81399226928d43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat4.jpg using Guid(acce341228dfb874d81399226928d43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cea5565b9275d0ee631c76a00375d6') in 0.014118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010030 seconds.
+  path: Assets/Table and chair/Chair/Model/Chair.obj
+  artifactKey: Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Model/Chair.obj using Guid(356323afbc2ef4945a31fd5474ae5969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8905960cdb1379df4c73cf260d70ccaf') in 0.052944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021705 seconds.
+  path: Assets/Table and chair/Chair/Maps/Chair_Occlusion.png
+  artifactKey: Guid(5954f0b71fc7e0040afc92d0c49cc027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Maps/Chair_Occlusion.png using Guid(5954f0b71fc7e0040afc92d0c49cc027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf717890a8bfe8f2646e6624986ba383') in 0.023763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014952 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader
+  artifactKey: Guid(bf34d2a25450349699e8ae6456fa7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader using Guid(bf34d2a25450349699e8ae6456fa7ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80edb1be6d9f9b71d0810687afff6575') in 0.010744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019938 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat17.mat
+  artifactKey: Guid(747505f7e507f184a9ff32304e1eef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat17.mat using Guid(747505f7e507f184a9ff32304e1eef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67edf68bb2ac82a827cbe19de70cba4b') in 0.022311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008530 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader
+  artifactKey: Guid(b6aa781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader using Guid(b6aa781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3bb739b071c124807a9575d75542062') in 0.011897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009975 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader
+  artifactKey: Guid(8c81db0e527d24acc9bcec04e87781bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader using Guid(8c81db0e527d24acc9bcec04e87781bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e338cd60b0da85bc4066552a928f183') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008259 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat2.jpg
+  artifactKey: Guid(40910db503bd7464cbc5ab2ba8d52363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat2.jpg using Guid(40910db503bd7464cbc5ab2ba8d52363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c984382178c9d56ebd2e44e49ce35215') in 0.022520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018542 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat20.jpg
+  artifactKey: Guid(eee2b1fe5a10fff4ebe361207bb8d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat20.jpg using Guid(eee2b1fe5a10fff4ebe361207bb8d01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a2590015effe0e9a0998b7aa3cef2e') in 0.018645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010559 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader
+  artifactKey: Guid(b61f0d8d8244b4b28aa66b0c8cb46a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader using Guid(b61f0d8d8244b4b28aa66b0c8cb46a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7185045e67d1907904f756cd49bde927') in 0.011268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010401 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat14.jpg
+  artifactKey: Guid(8a40c3e2f122f964490ff6b3708a4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat14.jpg using Guid(8a40c3e2f122f964490ff6b3708a4498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c12204723b6e4845e1c0091beda7dcd') in 0.022009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010164 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+  artifactKey: Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader using Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c61bf24d66d11451af4edabcb9fde61') in 0.010801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018706 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat15.jpg
+  artifactKey: Guid(8cbb4818b99866e4ea325d7959eb160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat15.jpg using Guid(8cbb4818b99866e4ea325d7959eb160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af70336f6adf43987669e3e34535c1b') in 0.018462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008775 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png
+  artifactKey: Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectScratch.png using Guid(6205c27cc031f4e66b8ea90d1bfaa158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2b8d759f1b4c5cf785152f39edee4f') in 0.021775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022939 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader
+  artifactKey: Guid(b3728d1488b02490cbd196c7941bf1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader using Guid(b3728d1488b02490cbd196c7941bf1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175fcb64758f6333e1c01ab8c86b2313') in 0.010552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009400 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Shaders/SMAA.shader
+  artifactKey: Guid(4505fec7a81214243b8e59edf89e3a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Shaders/SMAA.shader using Guid(4505fec7a81214243b8e59edf89e3a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24859969e9b64cd7d38c442cf40c2902') in 0.010580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008315 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader
+  artifactKey: Guid(003377fc2620a44939dadde6fe3f8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader using Guid(003377fc2620a44939dadde6fe3f8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5ad8b58a5b0773282b9818a23c287') in 0.009732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007262 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/StreetLights1.FBX
+  artifactKey: Guid(72c93e4f187cc614291429b3f1d40f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/StreetLights1.FBX using Guid(72c93e4f187cc614291429b3f1d40f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8f29f89a20692e4a7d094e074df371') in 0.414195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007196 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader
+  artifactKey: Guid(bb4af680337344a4abad65a4e8873c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader using Guid(bb4af680337344a4abad65a4e8873c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc839170de69214892e30a423a5dbc6') in 0.009748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006508 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader
+  artifactKey: Guid(67f8781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader using Guid(67f8781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b881c9801706097e48fe52072cae4fd') in 0.011643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007168 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader
+  artifactKey: Guid(68a00c837b82e4c6d92e7da765dc5f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader using Guid(68a00c837b82e4c6d92e7da765dc5f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb71e9f244c8f4acf0c6ec585fcc7f3') in 0.010421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006413 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat11.mat
+  artifactKey: Guid(5c52223eba37841409e1c3919d574e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat11.mat using Guid(5c52223eba37841409e1c3919d574e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713dbb57cb9a80e326cfb3d79e709d1') in 0.027607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009061 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs
+  artifactKey: Guid(478a2083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs using Guid(478a2083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3512adb13fe443c1099a518fb2cb50c') in 0.010052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009279 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader
+  artifactKey: Guid(57e6deea7c2924e22a5138e2b70bb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader using Guid(57e6deea7c2924e22a5138e2b70bb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6f0c2a71cf22aefcb3b6f12917e7df') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008419 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader
+  artifactKey: Guid(70d8568987ac0499f952b54c7c13e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/GlobalFog.shader using Guid(70d8568987ac0499f952b54c7c13e265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a4fe95eff6be576239c89b9b611f40') in 0.011616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011060 seconds.
+  path: Assets/Tree9/Tree9_3.prefab
+  artifactKey: Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_3.prefab using Guid(8b2d47fdc2e25ac4f9721480a68bbefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b33e3f4ddbe5be75b57d5d651d5f071') in 0.083829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036055 seconds.
+  path: Assets/Modern_Bench Pack/Textures/Wood_Planks.png
+  artifactKey: Guid(45a5cdd5f49074bdcaf3e81d49506b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_Bench Pack/Textures/Wood_Planks.png using Guid(45a5cdd5f49074bdcaf3e81d49506b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f1c97c3c2dfbaa3ed46e5a823479a') in 0.023837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009151 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat7.mat
+  artifactKey: Guid(14acf356d31836b4dbb218da6af1c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat7.mat using Guid(14acf356d31836b4dbb218da6af1c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375d49351002616bac4bdd02dbd36b21') in 0.020684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007964 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader
+  artifactKey: Guid(708b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/VortexEffect.shader using Guid(708b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2930b1cb32d371eba91490324186a911') in 0.010254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007541 seconds.
+  path: Assets/Tree9/Tree9_Leaf.fbx
+  artifactKey: Guid(1de95aafaed1b594b88a317c6a6ac028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_Leaf.fbx using Guid(1de95aafaed1b594b88a317c6a6ac028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf375f02eeb168f4e96388b6ac17fa6') in 0.038769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011029 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader
+  artifactKey: Guid(b59984d82af624bd3b0c777f038276f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader using Guid(b59984d82af624bd3b0c777f038276f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977b225964a68248ba4a31304bda9a0e') in 0.011015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007670 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/BokehSplatting.shader
+  artifactKey: Guid(c961b8ed1f00f924d804ada5143bd0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/DepthOfField/Shaders/BokehSplatting.shader using Guid(c961b8ed1f00f924d804ada5143bd0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc76796997185a53c62fdcfa2b9bc34') in 0.010599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008848 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Editor/ScreenSpaceReflectionEditor.cs
+  artifactKey: Guid(eb0236f80884a1f4793c96b4d2da5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/Editor/ScreenSpaceReflectionEditor.cs using Guid(eb0236f80884a1f4793c96b4d2da5c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4b0cbea08806c03da4d2f30b66bbef') in 0.011157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007825 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+  artifactKey: Guid(e515e0f94cefc4c0db54b45cba621544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader using Guid(e515e0f94cefc4c0db54b45cba621544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26bb81ba39b42d6ec05147e4092a0fd') in 0.010557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007472 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader
+  artifactKey: Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader using Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b753676089da05faa664ee45b63a1489') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008548 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs
+  artifactKey: Guid(d64b4f3a592f28b44bf19223ac8b6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs using Guid(d64b4f3a592f28b44bf19223ac8b6cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42f92ed632fa3816f81cca72ff57c66') in 0.010960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007259 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs
+  artifactKey: Guid(e50e925fb93c78246bf995d9dc3a2330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs using Guid(e50e925fb93c78246bf995d9dc3a2330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d3704728bf662c199eca2da0a6d010') in 0.009646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030162 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat13.jpg
+  artifactKey: Guid(ecbd82c9aa5b1654db7cc45ee8d7b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat13.jpg using Guid(ecbd82c9aa5b1654db7cc45ee8d7b736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411ecef44ff9255e10d0ee7d135176b') in 0.018269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012696 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png
+  artifactKey: Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/RandomVectors.png using Guid(a181ca8e3c62f3e4b8f183f6c586b032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0babee5afcd1ec573c9e3dc7b044bffb') in 0.020908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009441 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs
+  artifactKey: Guid(60e318a6043c1cb4a8ce1c8805bab930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs using Guid(60e318a6043c1cb4a8ce1c8805bab930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d33e1652f1a3656655c5daca5929aa') in 0.009544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007841 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat8.jpg
+  artifactKey: Guid(4b4b456ba0bd9204692bdfef81dac900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat8.jpg using Guid(4b4b456ba0bd9204692bdfef81dac900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4618221bab030828273c3a0551aa98') in 0.023216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011985 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader
+  artifactKey: Guid(f1b13d7a80660504a858ea24cfa418c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader using Guid(f1b13d7a80660504a858ea24cfa418c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3776a5f6b0c70de97499e2d0224868c6') in 0.010839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007692 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/ScreenSpaceReflection.cs
+  artifactKey: Guid(da3ff4a1bef2e8d47a1dfb734aa54de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/ScreenSpaceReflection/ScreenSpaceReflection.cs using Guid(da3ff4a1bef2e8d47a1dfb734aa54de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a21cbff62ad570845e24ad06c0f3215') in 0.003766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019591 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader
+  artifactKey: Guid(0d1644bdf064147baa97f235fc5b4903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader using Guid(0d1644bdf064147baa97f235fc5b4903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e541503e1e24a8686970e73b631ccb4b') in 0.010500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008700 seconds.
+  path: Assets/Tree9/Tree9_4_Textures/shadow.png
+  artifactKey: Guid(42c4a7a38f256684dbabec9c93b63806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_4_Textures/shadow.png using Guid(42c4a7a38f256684dbabec9c93b63806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af7e57f59bc9253385c49502467dc4a') in 0.020682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010215 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat19.mat
+  artifactKey: Guid(e2402792e0704924f99de4880cb86a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat19.mat using Guid(e2402792e0704924f99de4880cb86a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0836b634e3da18b651ed14a6d0b909') in 0.023858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037052 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader
+  artifactKey: Guid(e9ba2083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/MotionBlur.shader using Guid(e9ba2083ad114a07d000fbfb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61783d6e7e5d427695b7cf04afb93166') in 0.004626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022873 seconds.
+  path: Assets/Table and chair/Table/Model/Materials/_LP_LPwire_135110008.mat
+  artifactKey: Guid(57ac420b708ead140a2b704e7eb0dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Model/Materials/_LP_LPwire_135110008.mat using Guid(57ac420b708ead140a2b704e7eb0dddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87152e451f15ddaf116c6b1f65f77eb8') in 0.023685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009047 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs
+  artifactKey: Guid(75febd242c999f04d9654522a10c006b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs using Guid(75febd242c999f04d9654522a10c006b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a535c9cbc0dcfe734a6b3d9805dd2') in 0.003846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008599 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat10.mat
+  artifactKey: Guid(7efedb818b30d034f913856a7681adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat10.mat using Guid(7efedb818b30d034f913856a7681adbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220a9e78abd4c768133519da5141d55a') in 0.025313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008922 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
+  artifactKey: Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs using Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cafc6010a5da7e7fe2b179cd378fa3') in 0.009589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007630 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb6d436e0e471746a98e748d5681305') in 0.010335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008044 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat3.jpg
+  artifactKey: Guid(d0e55b8852d31eb4daa41529f332456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat3.jpg using Guid(d0e55b8852d31eb4daa41529f332456e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a2cb4101420dcaa1b3291ea5b48a35') in 0.022088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015915 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader
+  artifactKey: Guid(8b30686bb4322ab42ad5eb50a0210b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader using Guid(8b30686bb4322ab42ad5eb50a0210b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9aa3d90c791ed8fd36224a9351020d4') in 0.010156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018196 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader
+  artifactKey: Guid(0e447868506ba49f0a73235b8a8b647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader using Guid(0e447868506ba49f0a73235b8a8b647a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc69c0c4befd7a874c0f7d376d6db3e6') in 0.010452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008859 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+  artifactKey: Guid(017ca72b9e8a749058d13ebd527e98fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader using Guid(017ca72b9e8a749058d13ebd527e98fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d0003882031b5a6b6308b7bfde5cc') in 0.009781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007083 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(f04dc8e21c975f7469e0f474d7eda66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(f04dc8e21c975f7469e0f474d7eda66a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf770dc7a8b87812718a47e62e3a9cd0') in 0.009758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006308 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat13.mat
+  artifactKey: Guid(00a8bbb130f7e3845b7b670deaabef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat13.mat using Guid(00a8bbb130f7e3845b7b670deaabef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42aebc2ceb58550420700a88f05d3cb5') in 0.021385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010547 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs
+  artifactKey: Guid(7fceaeb339b971b429c4cc600acabd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs using Guid(7fceaeb339b971b429c4cc600acabd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79657521407dd54e7e1cdaf9527f1bb') in 0.009137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008612 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader
+  artifactKey: Guid(5d7f4c401ae8946bcb0d6ff68a9e7466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader using Guid(5d7f4c401ae8946bcb0d6ff68a9e7466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3221bb38a70d7a064994e6702b930bd') in 0.010371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007921 seconds.
+  path: Assets/Table and chair/Table/Maps/Table_Occlusion.png
+  artifactKey: Guid(e01fae955989895469979d2252b465ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Table/Maps/Table_Occlusion.png using Guid(e01fae955989895469979d2252b465ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cd81975965f2163224793efa8588d2') in 0.022559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008743 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader
+  artifactKey: Guid(641b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/TwirlEffect.shader using Guid(641b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43554ec3f59185cf1a8579fd474a08d9') in 0.010247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023448 seconds.
+  path: Assets/Tree9/bark14_N.png
+  artifactKey: Guid(81f1d63919f88a547a8d97fe857cc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/bark14_N.png using Guid(81f1d63919f88a547a8d97fe857cc586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc95ce788def106d9ab83928a2ac55f') in 0.023912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010894 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Scripts/Editor/LPVegetation_MaterialInspector.cs
+  artifactKey: Guid(597615af27a084144b8307b32b72a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Scripts/Editor/LPVegetation_MaterialInspector.cs using Guid(597615af27a084144b8307b32b72a684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa922ab80bde5d82fd6992e6e7ab576c') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021740 seconds.
+  path: Assets/Tree9/Tree9_2.prefab
+  artifactKey: Guid(be878d9ea17907f4a8068678a5ce7908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_2.prefab using Guid(be878d9ea17907f4a8068678a5ce7908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca444e1ed5a207e51e8aea157ad3fb9') in 0.067415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008101 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat9.mat
+  artifactKey: Guid(eb8e6e2e2f2cd0d4c9a999b43308ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat9.mat using Guid(eb8e6e2e2f2cd0d4c9a999b43308ccd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974c732bbffc971cc75e29da93239f3a') in 0.026000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008849 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png
+  artifactKey: Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/NoiseEffectGrain.png using Guid(ffa9c02760c2b4e8eb9814ec06c4b05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7aafc946a1541a919dd823a0903627') in 0.023539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027759 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+  artifactKey: Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader using Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66dab1527e1efe1f8dbf2d9c8debd02') in 0.011627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016671 seconds.
+  path: Assets/Tree9/Tree9_1_Textures/shadow.png
+  artifactKey: Guid(c6866b951b8f3da479d9f8822255ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_1_Textures/shadow.png using Guid(c6866b951b8f3da479d9f8822255ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e33147a91149e76571c82371cea310') in 0.016864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010932 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat20.mat
+  artifactKey: Guid(155b12020f502c3498ea6e05df210f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat20.mat using Guid(155b12020f502c3498ea6e05df210f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03efbadf3cd8006264f8c09085569ef0') in 0.020273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007110 seconds.
+  path: Assets/Tree9/Tree9_1_Textures/translucency_gloss.png
+  artifactKey: Guid(f61dbef0d12d35f4b9fbf8cfded48f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_1_Textures/translucency_gloss.png using Guid(f61dbef0d12d35f4b9fbf8cfded48f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61591d2a86e99e1d970604c10e74f2ee') in 0.020512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010238 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat11.jpg
+  artifactKey: Guid(349488ae5f35d364ab4926fc4f77a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat11.jpg using Guid(349488ae5f35d364ab4926fc4f77a4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12359bf25e2c11b52f3c7f3ce675ed94') in 0.016319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013511 seconds.
+  path: Assets/Tree9/Tree9_4_Textures/diffuse.png
+  artifactKey: Guid(c50032faea8660849af765be34da0d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_4_Textures/diffuse.png using Guid(c50032faea8660849af765be34da0d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8655df6d9b06e94b0e84d5c1c0b5cc1a') in 0.024123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017792 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader
+  artifactKey: Guid(e97c14fbb5ea04c3a902cc533d7fc5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader using Guid(e97c14fbb5ea04c3a902cc533d7fc5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf76256665c4a06e88b39ab21fc024b') in 0.010689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007790 seconds.
+  path: Assets/Tree9/Tree9_4_Textures/translucency_gloss.png
+  artifactKey: Guid(c9c90abbbca041543bd9aaf122f79f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_4_Textures/translucency_gloss.png using Guid(c9c90abbbca041543bd9aaf122f79f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df112d054b522499e33a98c5b771aa00') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005768 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a571301edaf3ef31f347c8859d10fb7') in 0.011605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007537 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat9.jpg
+  artifactKey: Guid(aad605c7f6ff41741829936c16535dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat9.jpg using Guid(aad605c7f6ff41741829936c16535dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8861fad73cc4d992737f96ca59e43030') in 0.016632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010040 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs
+  artifactKey: Guid(76b5ec6153a1d55438228df10fe66844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs using Guid(76b5ec6153a1d55438228df10fe66844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d8365d172ec1bdfa0d4ba707df08aa') in 0.003691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007934 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs
+  artifactKey: Guid(02536f33053638549ab5c50ff3ecc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs using Guid(02536f33053638549ab5c50ff3ecc0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87973173f905f51ba8abc4ceeeae290c') in 0.010237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012134 seconds.
+  path: Assets/Tree9/Leafs19.tga
+  artifactKey: Guid(58552de7d543f6e4095feb3806e56f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Leafs19.tga using Guid(58552de7d543f6e4095feb3806e56f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fd9a278c4ccbec74af8b36559b13ac') in 0.022427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009843 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs
+  artifactKey: Guid(9191284b058eef549b7108b5f04e1117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs using Guid(9191284b058eef549b7108b5f04e1117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd02f3606449637d6f9b834c618a2bc') in 0.008226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008065 seconds.
+  path: Assets/Tree9/bark14.mat
+  artifactKey: Guid(760ea8238d6219c42b2739f693d4c834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/bark14.mat using Guid(760ea8238d6219c42b2739f693d4c834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0022858c1609c214fdb84616ba579d03') in 0.037669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009752 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs
+  artifactKey: Guid(89a037199d11087f1100e2b844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs using Guid(89a037199d11087f1100e2b844295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39685a89a4d76769be2f676c333b08ff') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007043 seconds.
+  path: Assets/Table and chair/Chair/Model/Materials/Plane002Mat.mat
+  artifactKey: Guid(88d9f7c91b1b013499e8baad829309bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Model/Materials/Plane002Mat.mat using Guid(88d9f7c91b1b013499e8baad829309bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffeb1f83cbe64d0f5ffb91f12eabae3') in 0.022317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008535 seconds.
+  path: Assets/Table and chair/Chair/Material/Chair_Material.mat
+  artifactKey: Guid(6942da2462937ed4e8a3e5d9e873787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Material/Chair_Material.mat using Guid(6942da2462937ed4e8a3e5d9e873787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17afb008461f3c9537b4d17be01b415') in 0.043997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025900 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs
+  artifactKey: Guid(a94b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs using Guid(a94b781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236c7c9e70e2b767804913f4278e23b4') in 0.009767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020981 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat6.mat
+  artifactKey: Guid(7293e1c0e949f934d89346c12b83e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat6.mat using Guid(7293e1c0e949f934d89346c12b83e063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b3c0f5216aec2d1f112bf236ade414') in 0.038636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011426 seconds.
+  path: Assets/Tree9/Tree9_4.prefab
+  artifactKey: Guid(956bd2acf7aae244dac8fc20cf57858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_4.prefab using Guid(956bd2acf7aae244dac8fc20cf57858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dcf01f9b9289143c325426aab59e7cf') in 0.067640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009799 seconds.
+  path: Assets/Tree9/Tree9_1_Textures/diffuse.png
+  artifactKey: Guid(f984fae445e929149af21237b556579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_1_Textures/diffuse.png using Guid(f984fae445e929149af21237b556579a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29476dd14347d878a9f12d1c0ce65821') in 0.022677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010712 seconds.
+  path: Assets/Table and chair/Chair/Maps/Chair_diffuse.png
+  artifactKey: Guid(9bf0d6a55b9ac474b83735882859ecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Maps/Chair_diffuse.png using Guid(9bf0d6a55b9ac474b83735882859ecad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6328f249c3db4ea79c8c42f9fd147133') in 0.024084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023385 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader
+  artifactKey: Guid(f7898d203e9b94c0dbe2bf9dd5cb32c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader using Guid(f7898d203e9b94c0dbe2bf9dd5cb32c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade55399153727e74cd809c04b44b144') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006911 seconds.
+  path: Assets/StoneFloorTexture/stone_floor_material.mat
+  artifactKey: Guid(7ddadaee3dfa5034797e2404956e1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StoneFloorTexture/stone_floor_material.mat using Guid(7ddadaee3dfa5034797e2404956e1800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5401cef0ed5d51162248fb7e03a3d78e') in 0.024236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009805 seconds.
+  path: Assets/Tree9/Tree9_5.prefab
+  artifactKey: Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_5.prefab using Guid(9b8fc966f95ea9c4194dc091fc40b478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a614fed07369b8ba7d389862b7857a3d') in 0.068858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008518 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat3.mat
+  artifactKey: Guid(9c6dc3fc00d8b844f8196ac27f9f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat3.mat using Guid(9c6dc3fc00d8b844f8196ac27f9f2599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fa78e6de09985d69472c3d9cb2508f') in 0.023591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007425 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader
+  artifactKey: Guid(85a88efa8c871af4a9d17c64791b6f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/CameraMotionBlur.shader using Guid(85a88efa8c871af4a9d17c64791b6f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81793d60190c4ab3eff055ebba6f72fe') in 0.004724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007308 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Textures/SMAASearchTex.png
+  artifactKey: Guid(387ed7c38eb63554db846987adb98e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Textures/SMAASearchTex.png using Guid(387ed7c38eb63554db846987adb98e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0e704e86f810c356e845380a4a5159') in 0.021652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025725 seconds.
+  path: Assets/Tree9/Leafs19_N.png
+  artifactKey: Guid(fa41cc63b7bd56f4da64009c1c218880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Leafs19_N.png using Guid(fa41cc63b7bd56f4da64009c1c218880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85c6e63e23e77a6cea45fe90a673dfc') in 0.029094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010277 seconds.
+  path: Assets/Tree9/Tree9_leafs.mat
+  artifactKey: Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/Tree9_leafs.mat using Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be39cd3ff9e7e0bd09137d55aeb22ba') in 0.026052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008325 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d25188a4d5405ed90fb1f808b4843fa') in 0.033204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034857 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/ImageEffectHelper.cs
+  artifactKey: Guid(ab6a3f50deeee984c88794eeeb901226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/Common/ImageEffectHelper.cs using Guid(ab6a3f50deeee984c88794eeeb901226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfa44c2dd02e0876067620ec0959e3d') in 0.010729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018890 seconds.
+  path: Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Flower_A1_H70cm_01.fbx
+  artifactKey: Guid(9715bf1e661b47842977d36abed88781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicrom/PolyPacks/Wind/Assets/Models/LPW_Flower_A1_H70cm_01.fbx using Guid(9715bf1e661b47842977d36abed88781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38fd8f44c341283cf98635b8ecf9a88') in 0.040414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014324 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs
+  artifactKey: Guid(243a781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs using Guid(243a781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19aae4008b911b4a0d45bb2dea01039') in 0.011402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006027 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png using Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33197d332cc09a2c23dba2ce66d8be') in 0.018827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015192 seconds.
+  path: Assets/Table and chair/Chair/Prefab/Chair.prefab
+  artifactKey: Guid(d7b762e2efec15745a46d6a07c9c119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Chair/Prefab/Chair.prefab using Guid(d7b762e2efec15745a46d6a07c9c119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5594c83e09c27277559ed7860727eb97') in 0.042197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008274 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs
+  artifactKey: Guid(50b03df8f04b5c441aaac5b7fccb4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs using Guid(50b03df8f04b5c441aaac5b7fccb4734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879869a6392bfa7029ce2cf750c4719b') in 0.010013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009292 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat14.mat
+  artifactKey: Guid(1fb6f4558d226ad4eb6254a93e49a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat14.mat using Guid(1fb6f4558d226ad4eb6254a93e49a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aff38af594395220ed6d2864d82cb20') in 0.022823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008891 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader
+  artifactKey: Guid(257bc83cbeb544540bd0e558aa9b1383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader using Guid(257bc83cbeb544540bd0e558aa9b1383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cd289d2953ddbae6212cfb6fa97880') in 0.011567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008335 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader
+  artifactKey: Guid(273404942eede4ea1883ca1fb2942507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ContrastComposite.shader using Guid(273404942eede4ea1883ca1fb2942507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b60c4f3c072f309b8aa4ef94029b5ea') in 0.010536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006470 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/TonemappingColorGradingHistogram.shader
+  artifactKey: Guid(9a8e838691462194482a43a02e424876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/Shaders/TonemappingColorGradingHistogram.shader using Guid(9a8e838691462194482a43a02e424876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff563589cda491441359bbcc7e4f2283') in 0.010392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007072 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat1.jpg
+  artifactKey: Guid(28dfbbc073e032044a6bc52848561688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat1.jpg using Guid(28dfbbc073e032044a6bc52848561688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c072b0a950ac9c7d028f8d5c5771d') in 0.020198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039171 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+  artifactKey: Guid(4975a6e437fc3b149a8cd508ce5bdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs using Guid(4975a6e437fc3b149a8cd508ce5bdd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10ec76ba92a458c2eba795b928c8bb5') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009728 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs
+  artifactKey: Guid(ea59781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs using Guid(ea59781cad112c75d0008dfa8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a07cf1aace6f01187074de49194cc0e') in 0.009666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007682 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader
+  artifactKey: Guid(b0249d8c935344451aa4de6db76f0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader using Guid(b0249d8c935344451aa4de6db76f0688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df988b51295fe6523429c1d05f5c527') in 0.004489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010521 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader
+  artifactKey: Guid(acd613035ff3e455e8abf23fdc8c8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader using Guid(acd613035ff3e455e8abf23fdc8c8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e71cc3eadc03fc892b822ec02e7740') in 0.011169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044530 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat19.jpg
+  artifactKey: Guid(bfd0907ae63cd8747b167347703e94c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat19.jpg using Guid(bfd0907ae63cd8747b167347703e94c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1408e4f78b6b443dc962c8e8ab354a42') in 0.016819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011866 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader
+  artifactKey: Guid(cd5b323dcc592457790ff18b528f5e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader using Guid(cd5b323dcc592457790ff18b528f5e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169595c0ca4f561453d84beec4958fc8') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006373 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+  artifactKey: Guid(bd70d448b18cfbc46af26466f752332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs using Guid(bd70d448b18cfbc46af26466f752332c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447261742cc2b2c1a834c7be5246a59') in 0.009448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006449 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Textures/SMAAAreaTexDX9.png
+  artifactKey: Guid(e62aa7035ea66c94b90b2d8774d02cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Textures/SMAAAreaTexDX9.png using Guid(e62aa7035ea66c94b90b2d8774d02cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736081cc24bc851211bd2fbbba7ce108') in 0.023601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011138 seconds.
+  path: Assets/Tree9/bark14.png
+  artifactKey: Guid(78e60ad3a8152ec46be748bb6d5a7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree9/bark14.png using Guid(78e60ad3a8152ec46be748bb6d5a7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5928616a7b2be697e4c8d901400258') in 0.020179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009647 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Shaders/SMAA.cginc
+  artifactKey: Guid(544c060ad7dce074890288fc43eaf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(ALPHA)/AntiAliasing/Shaders/SMAA.cginc using Guid(544c060ad7dce074890288fc43eaf1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb31cc97c0a6e6abd5ebcd864d23eaf') in 0.004639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007897 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/TonemappingColorGrading.cs
+  artifactKey: Guid(58a7625302996c94ba07a8ca3351f668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/CinematicEffects(BETA)/TonemappingColorGrading/TonemappingColorGrading.cs using Guid(58a7625302996c94ba07a8ca3351f668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a05c24407c1db9138375021b033f8ed') in 0.004748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021218 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader
+  artifactKey: Guid(f688f89ed5eb847c5b19c934a0f1e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader using Guid(f688f89ed5eb847c5b19c934a0f1e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a31982f55333a0dca79798a74ab14e') in 0.012733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020171 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs
+  artifactKey: Guid(18b91636de2ba3445913e4cf38528dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs using Guid(18b91636de2ba3445913e4cf38528dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1bd03e9ac1eb34fca8c624561737d5') in 0.010626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022310 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader
+  artifactKey: Guid(7856cbff0a0ca45c787d5431eb805bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader using Guid(7856cbff0a0ca45c787d5431eb805bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882b6b1783c8a8ff36f72ff1518d252a') in 0.011692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008106 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Textures/mat12.jpg
+  artifactKey: Guid(2d8035e15d7a764489eaff7607726fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Textures/mat12.jpg using Guid(2d8035e15d7a764489eaff7607726fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb38d43b856e92139ff85e7dfbf0231') in 0.021410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009537 seconds.
+  path: Assets/StreetLightsPack/Models/StreetLights1/Materials/mat15.mat
+  artifactKey: Guid(843b1fb8a57e37f43a4dfdfd2fee5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreetLightsPack/Models/StreetLights1/Materials/mat15.mat using Guid(843b1fb8a57e37f43a4dfdfd2fee5cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa162cce29310f8f0f67eed6a7e1ab9b') in 0.023293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009843 seconds.
+  path: Assets/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader
+  artifactKey: Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyShaders/Shaders/LowPolyPBRShader.shader using Guid(a97e290cd0cec1a4cb176e474e69c1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535361c053ec4849a61e1baa28ce1633') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008731 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+  artifactKey: Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs using Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae4bdeaa930298f18dd5c684e984ad4') in 0.012110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008077 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+  artifactKey: Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader using Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cf5865a4c2b6d2902d906bc22ce7b5') in 0.010139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006517 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+  artifactKey: Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs using Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c90826d058de7945e54f70e047f3c') in 0.009976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008364 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e85d55384b22641579099d0f1ce7e8') in 0.053296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007768 seconds.
+  path: Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader
+  artifactKey: Guid(438ddd58d82c84d9eb1fdc56111702e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table and chair/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader using Guid(438ddd58d82c84d9eb1fdc56111702e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526bab97ee9f48cb38a1154822413a75') in 0.010533 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011561 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3374ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2761ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (910ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (1285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (852ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.5 MB). Loaded Objects now: 4078.
+Memory consumption went from 156.2 MB to 155.7 MB.
+Total: 21.818000 ms (FindLiveObjects: 0.638000 ms CreateObjectMapping: 0.315800 ms MarkObjects: 18.959800 ms  DeleteObjects: 1.900400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1198.289562 seconds.
+  path: Assets/Scenes/FHNW.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FHNW.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdde9d13800ae34dc9222328a83fa53') in 0.019286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009693 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\git\studies\semester_4\meco\unity\ModellingFHNW\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3682ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (3096ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (946ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (1453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (355ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 26.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3429 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.6 MB). Loaded Objects now: 4081.
+Memory consumption went from 156.3 MB to 155.7 MB.
+Total: 13.372300 ms (FindLiveObjects: 0.496900 ms CreateObjectMapping: 0.888300 ms MarkObjects: 10.948700 ms  DeleteObjects: 1.035300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

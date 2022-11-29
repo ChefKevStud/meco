@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638048332203317015
-    m_Hash: 2891438559
+      ticks: 638051696638128377
+    m_Hash: 2584840489
   m_LockFileStatus:
     m_FilePath: C:/git/studies/semester_4/meco/unity/ModellingFHNW/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638048332529303769
-    m_Hash: 3956890126
+      ticks: 638051696638128377
+    m_Hash: 368091525
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3168,7 +3168,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 4
