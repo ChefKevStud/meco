@@ -3634,8 +3634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 433.2, y: -319.65}
-  m_SizeDelta: {x: 570.3, y: 50}
+  m_AnchoredPosition: {x: 410.2, y: -242.21}
+  m_SizeDelta: {x: 617.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637641374
 MonoBehaviour:
@@ -3657,12 +3657,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Press "tab" to stop/start the video
+  m_text: 'use arrow keys or "wasd" to move
+
+    Press spacebar to jump
+
+    Press
+    "tab" to stop/start the video
 
     Press backspace to reset video
 
-    (keybindings
-    can be adjusted in movie_pane script)'
+    (video
+    keybindings can be adjusted in movie_plane script)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
