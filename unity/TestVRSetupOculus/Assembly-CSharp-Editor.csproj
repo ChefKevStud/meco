@@ -328,11 +328,11 @@
      <Reference Include="Unity.VisualScripting.YamlDotNet">
      <HintPath>C:\git\studies\semester_4\meco\unity\TestVRSetupOculus\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\git\studies\semester_4\meco\unity\TestVRSetupOculus\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-     </Reference>
      <Reference Include="unityplastic">
      <HintPath>C:\git\studies\semester_4\meco\unity\TestVRSetupOculus\Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.TextureAssets">
+     <HintPath>C:\git\studies\semester_4\meco\unity\TestVRSetupOculus\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>C:\git\studies\semester_4\meco\unity\TestVRSetupOculus\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -791,6 +791,10 @@
       <Project>{c6972eb6-b0a0-e10d-830c-2c69c97a019b}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.csproj">
+      <Project>{11bc4552-03d9-e845-03ff-eb3f5ee9a268}</Project>
+      <Name>Unity.XR.MockHMD</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{127106c0-b144-a94d-8e25-d2928ece5405}</Project>
       <Name>Unity.XR.Management</Name>
@@ -846,6 +850,10 @@
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
       <Project>{c77ac32e-1f32-d3bb-bc7e-878ff23cd6c3}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.Editor.csproj">
+      <Project>{eb771998-9cac-1a1c-9a1a-f03acc348d59}</Project>
+      <Name>Unity.XR.MockHMD.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{d2224599-5b67-ff32-6e4c-75f414dc7e4d}</Project>
@@ -918,14 +926,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{9c065353-6475-da39-9ac3-8b0b31ec6b88}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.MockHMD.csproj">
-      <Project>{11bc4552-03d9-e845-03ff-eb3f5ee9a268}</Project>
-      <Name>Unity.XR.MockHMD</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.MockHMD.Editor.csproj">
-      <Project>{eb771998-9cac-1a1c-9a1a-f03acc348d59}</Project>
-      <Name>Unity.XR.MockHMD.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

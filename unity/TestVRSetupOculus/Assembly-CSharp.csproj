@@ -68,6 +68,7 @@
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\Scripts\HMDInfoManager.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
@@ -88,7 +89,6 @@
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
      <Compile Include="Assets\Table and chair\Standard Assets\Effects\CinematicEffects(BETA)\Common\ImageEffectHelper.cs" />
-     <Compile Include="Assets\Scripts\HMDInfoManager.cs" />
      <Folder Include="Assets" />
      <None Include="Assets\Table and chair\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\localization\mergetool.ja.txt" />
@@ -1242,6 +1242,10 @@
       <Project>{c6972eb6-b0a0-e10d-830c-2c69c97a019b}</Project>
       <Name>Unity.XR.CoreUtils.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.csproj">
+      <Project>{11bc4552-03d9-e845-03ff-eb3f5ee9a268}</Project>
+      <Name>Unity.XR.MockHMD</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{127106c0-b144-a94d-8e25-d2928ece5405}</Project>
       <Name>Unity.XR.Management</Name>
@@ -1297,6 +1301,10 @@
     <ProjectReference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.csproj">
       <Project>{c77ac32e-1f32-d3bb-bc7e-878ff23cd6c3}</Project>
       <Name>Unity.XR.OpenXR.Features.OculusQuestSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.MockHMD.Editor.csproj">
+      <Project>{eb771998-9cac-1a1c-9a1a-f03acc348d59}</Project>
+      <Name>Unity.XR.MockHMD.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{d2224599-5b67-ff32-6e4c-75f414dc7e4d}</Project>
@@ -1369,14 +1377,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{9c065353-6475-da39-9ac3-8b0b31ec6b88}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.MockHMD.csproj">
-      <Project>{11bc4552-03d9-e845-03ff-eb3f5ee9a268}</Project>
-      <Name>Unity.XR.MockHMD</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.MockHMD.Editor.csproj">
-      <Project>{eb771998-9cac-1a1c-9a1a-f03acc348d59}</Project>
-      <Name>Unity.XR.MockHMD.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
